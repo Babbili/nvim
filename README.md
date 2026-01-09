@@ -8,8 +8,13 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - Neovim >= 0.11.2 https://github.com/neovim/neovim
 - Nerd Font installed https://www.nerdfonts.com/font-downloads 
 
-install Nerd Font with the script
+install Nerd Font
 
+```bash
+sudo apt install fonts-font-awesome
+
+```
+specific fonts
 ```bash
 #!/usr/bin/env bash
 
