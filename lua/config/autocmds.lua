@@ -33,3 +33,11 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+vim.filetype.add({
+  extension = {
+    vcl = "vcl",
+    vtc = "vtc",
+  },
+})
+vim.lsp.enable('varnishls')
+
